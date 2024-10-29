@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Page</title>
+    <style>
+        @media screen and (max-width:700px) {
+            body {
+            background-color: #E6F0F5;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        p{
+            margin:0;
+            padding:0;
+        }
+
+        .container {
+            background-color: white;
+            width: 400px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            color: #33A299;
+            font-size: 24px;
+            padding: 20px 20px 0px 20px;
+        }
+
+        .guarantee {
+            color: #A3C000;
+            font-weight: bold;
+            padding: 20px 20px 0px 20px;
+            
+        }
+
+        .description {
+            color: #777;
+            margin-bottom: 25px;
+            width:auto;
+            font-size: 20px;
+            height:100px;
+            object-fit: cover;
+            padding: 20px;
+        }
+
+        .subscription {
+            background-color: #33A299;
+            padding: 20px;
+            color: white;
+            padding: 20px;
+        }
+
+        .price {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .price-description {
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .sign-up-btn {
+            background-color: #C7E50C;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            width:360px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .why-us {
+            color: white;
+            padding:20px;
+            background-color: #4ac1b7;
+            font-weight: 500;
+        }
+
+        .why-us ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .why-us li {
+            margin-bottom: 10px;
+        } 
+        }
+        @media screen and (min-width:701px) {
+            body {
+            background-color: #E6F0F5;
+            
+            height: 100vh;
+            margin: 0;
+            
+        }
+        p{
+            margin:0;
+            padding:0;
+        }
+
+        .container {
+            background-color: white;
+            width: 800px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+            display: grid;
+            grid-template-rows: 45% 55%;
+        }
+
+        .header {
+            color: #33A299;
+            font-size: 24px;
+            padding: 20px 20px 0px 20px;
+        }
+
+        .guarantee {
+            color: #A3C000;
+            font-weight: bold;
+            padding: 20px 20px 0px 20px;
+            
+        }
+
+        .description {
+            color: #777;
+            margin-bottom: 25px;
+            width:auto;
+            font-size: 20px;
+            height:100px;
+            object-fit: cover;
+            padding: 20px;
+        }
+
+        .subscription {
+            background-color: #33A299;
+            padding: 20px;
+            color: white;
+            padding: 20px;
+        }
+
+        .price {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .price-description {
+            font-size: 14px;
+        }
+
+        .sign-up-btn {
+            background-color: #C7E50C;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            width:360px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .why-us {
+            color: white;
+            padding:20px;
+            background-color: #4ac1b7;
+            font-weight: 500;
+        }
+
+        .why-us ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .why-us li {
+            margin-bottom: 10px;
+        }  
+        .down{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        } 
+        .up{
+            padding:0;
+        }
+        }
+
+    </style> 
+        
+</head>
+<body>
+
+    <div class="container">
+        <div class="up">
+            <div class="header">
+                Join our community
+            </div>
+            <div class="guarantee">
+                30-day, hassle-free money back guarantee
+            </div>
+            <div class="description">
+                Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.
+            </div>
+        </div>
+        <div class="down">
+            <div class="subscription">
+                <span><div class="price">$29  </div> <p>per month</p></span>
+                <div class="price-description">
+                     <br> Full access for less than $1 a day
+                </div>
+                <button class="sign-up-btn">Sign Up</button>
+            </div>
+    
+            <div class="why-us">
+                <h3>Why Us</h3>
+                <ul>
+                    <li><p> Tutorials by industry experts</p></li>
+                    <li><p> Peer & expert code review</p></li>
+                    <li><p>Coding exercises</p></li>
+                    <li><p>Access to our GitHub repos</p></li>
+                    <li><p>Community forum</p></li>
+                    <li><p>Flashcard decks</p></li>
+                    <li><p>New videos every week</p></li>
+                </ul>
+            </div>
+        </div>
+        
+
+        
+    </div>
+
+</body>
+</html>
